@@ -1,16 +1,6 @@
 # Turborepo kitchen sink starter
 
-This Turborepo starter is maintained by the Turborepo core team.
-
-This example also shows how to use [Workspace Configurations](https://turbo.build/docs/core-concepts/monorepos/configuring-workspaces).
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest -e kitchen-sink
-```
+This Turborepo starter is maintained by hienerd93.
 
 ## What's inside?
 
@@ -18,10 +8,8 @@ This Turborepo includes the following packages and apps:
 
 ### Apps and Packages
 
-- `api`: an [Express](https://expressjs.com/) server
-- `storefront`: a [Next.js](https://nextjs.org/) app
-- `admin`: a [Vite](https://vitejs.dev/) single page app
-- `blog`: a [Remix](https://remix.run/) blog
+- `backend`: an [Express](https://expressjs.com/) server
+- `frontend`: a [Vite](https://vitejs.dev/) single page app
 - `@repo/eslint-config`: ESLint configurations used throughout the monorepo
 - `@repo/jest-presets`: Jest configurations
 - `@repo/logger`: isomorphic logger (a small wrapper around console.log)
